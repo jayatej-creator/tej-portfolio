@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfoliostyle.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left-nav">
+            <h1 class="nav-font">MY PORTFOLIO</h1>
+        </div>
+        <div class="right-nav">
+            <a class="a-element">Home</a>
+            <a class="a-element">About</a>
+            <a class="a-element">services</a>
+            <a class="a-element">contact</a>
+        </div>
+    </div>
+    <div class="home">
+        <div class="home-left">
+            <h1 class="heading">J A Y A T E J   N A N D I K O L L A</h1>
+           <p> Hi, I'm <b>JAYATEJ NANDIKOLLA</b>— Aspiring Front-End Developer <br>
+
+I'm currently a student with a growing passion for web development studying in <i>Aditya College of Engineering and Technology</i>. <br> With a foundational understanding of HTML and CSS, I enjoy bringing simple web designs to life and learning how structure and style work together to create user-friendly websites. <br>
+
+This portfolio showcases some of my early projects as I continue building my skills and exploring the world of <b>front-end development</b>. <br> I'm excited to keep learning, experimenting, and improving with each new challenge. <br>
+</p>
+        </div>
+        <div class="home-right">
+            <img src="https://i.imghippo.com/files/ozf4967nk.jpg"  width="440 " height="500" alt="my Logo"> 
+
+        </div>
+
+    </div>
+    <div class="info">
+        <h1 class="info-head">My Information</h1>
+        <div class="info-sub">
+
+            <div class="courses">
+                <h1 class="courses-head"><b>Technical-Skills</b></h1>
+            <p>I'm a beginner programmer passionate about learning and building with code. I recently started my journey in software development and have been exploring different programming languages, tools, and technologies. <br> 
+
+Currently, I’m focused on building a strong foundation in: <br>
+
+<i><b>HTML, CSS, and JavaScript for web development</b></i> <br>
+At present iam better in coding languages: <b>c,c++</b>. <br>
+
+As I continue to grow, I aim to contribute to open-source projects and develop more complex applications.</p>
+            </div>
+            
+            
+            <div class="acadamics">
+                <h1 class="acadamics-head"><b>Academic-Background</b></h1>
+            <p>I’m currently pursuing my Bachelor of Technology (B.Tech) in Information Technology <br> where I’ve developed a strong interest in software development, programming, and problem-solving.
+
+Throughout my academic journey, I’ve gained knowledge in core computer science subjects such as: <br>
+
+<b><i>Data Structures and Algorithms</i></b> <br>
+
+<b><i>Object-Oriented Programming (OOP)</i></b> <br>
+
+<i><b><i>Operating Systems</i></b></i> <br>
+
+
+ <br>
+
+        </p>
+            </div>
+            
+
+            <div class="hobbies">
+                <h1 class="hobbies-head"><b>Hobbies</b></h1>
+                 <p>📚 Studying: Deeply interested in academic learning, especially in core subjects related to engineering and technology. <br>
+
+🎮 Playing Free Fire: The game enhances strategic thinking, decision-making, and hand-eye coordination. <br>
+
+🏸 Playing Badminton: Actively participates in badminton for physical fitness and mental refreshment. <br>
+
+⚖️ Balancing Academics and Recreation: Maintains a healthy balance between studies and hobbies to ensure overall personal development and a stress-free lifestyle.</p>
+            </div>
+            
+           
+          
+        </div>
+
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>

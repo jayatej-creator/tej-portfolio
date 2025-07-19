@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Grid+Double&family=Encode+Sans:wght@100..900&family=Federo&family=Kalnia+Glaze:wght@100..700&family=Kings&family=Libertinus+Mono&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Revalia&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&family=Saira:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&family=UoqMunThenKhung&display=swap');
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+.left-nav{
+    padding-left: 20px;
+}
+.right-nav{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a-element{
+    padding: 10px;
+    border: 2px solid rgb(34, 172, 214);
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    
+}
+.home-left{
+    width: 60vw;
+    text-align: right;
+    padding-left: 150px;
+}
+.home-right{
+    width: 50vw;
+    padding-left: 50px;
+    padding-bottom: 17px;
+}
+.heading{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-color:rgb(34, 172, 214);
+  text-decoration-thickness: 8px;
+}
+.nav-font{
+    font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.info-head{
+    font-family: "Michroma", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(246, 248, 248);
+  text-decoration:underline;
+  text-decoration-color: rgb(34, 172, 214);
+  text-decoration-thickness: 5px;
+}
+.info-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.courses{
+    
+    border:2px solid rgb(34, 172, 214) ;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    height: 270px;
+}
+.acadamics{
+    border:2px solid rgb(34, 172, 214) ;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    height: 270px;
+}
+.hobbies{
+    border: 2px solid rgb(34, 172, 214);
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    height:270px;
+}
+.info-sub{
+    padding:40px;
+    
+}
+.hobbies-head{
+      font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+     
+}
+.acadamics-head{
+    font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.courses-head{
+    font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.contact{
+    text-align: center;
+}
+.contact-head{
+    font-family: "Michroma", sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color:rgb(34, 172, 214) ;
+    text-decoration-thickness: 5px;
+}
+.social-icon{
+    padding: 5px;
+}
+.linked-img{
+    padding-bottom:100;
+}
